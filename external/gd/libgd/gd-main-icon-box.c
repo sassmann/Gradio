@@ -945,6 +945,7 @@ gd_main_icon_box_init (GdMainIconBox *self)
   gtk_widget_set_can_focus (GTK_WIDGET (self), TRUE);
   gtk_flow_box_set_homogeneous (GTK_FLOW_BOX (self), TRUE);
   gtk_flow_box_set_min_children_per_line (GTK_FLOW_BOX (self), 3);
+  gtk_flow_box_set_max_children_per_line (GTK_FLOW_BOX (self), 16);
   gtk_flow_box_set_selection_mode (GTK_FLOW_BOX (self), GTK_SELECTION_NONE);
 
   /* We need to ensure that rubberband selection and DnD don't step

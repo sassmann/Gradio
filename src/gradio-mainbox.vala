@@ -30,8 +30,8 @@ namespace Gradio{
 			this.set_vexpand(true);
 			this.show_all();
 
-			(((Frame)this.get_child()).get_child()).margin_top = 12;
-			(((Frame)this.get_child()).get_child()).margin_bottom = 12;
+			(((Frame)this.get_child()).get_child()).margin_top = 0;
+			(((Frame)this.get_child()).get_child()).margin_bottom = 0;
 			Frame frame = (Frame)this.get_child();
 			frame.set_shadow_type(ShadowType.NONE);
 
